@@ -1,0 +1,25 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do DSDProject_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/14.0/DSDProject {C:/altera/14.0/DSDProject/seven_segment_decoder.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module seven_segment_decoder
+# 
+# Top level modules:
+# 	seven_segment_decoder
+# vlog -vlog01compat -work work +incdir+C:/altera/14.0/DSDProject {C:/altera/14.0/DSDProject/DSDProject.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DSDProject
+# 
+# Top level modules:
+# 	DSDProject
+# 

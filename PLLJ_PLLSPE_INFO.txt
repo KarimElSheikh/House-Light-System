@@ -1,0 +1,10 @@
+PLL_Name	DE2_115_IR:IR0|pll1:u0|altpll:altpll_component|pll1_altpll:auto_generated|pll1
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	DE2_115_Synthesizer:DEAUDIO|VGA_Audio_PLL:u1|altpll:altpll_component|pll
+PLLJITTER	31
+PLLSPEmax	84
+PLLSPEmin	-53
+

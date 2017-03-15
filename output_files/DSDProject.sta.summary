@@ -1,0 +1,449 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : -14.070
+TNS   : -256.281
+
+Type  : Slow 1200mV 85C Model Setup 'DE2_115_Synthesizer:DEAUDIO|demo_sound2:dd2|step[0]'
+Slack : -9.738
+TNS   : -73.407
+
+Type  : Slow 1200mV 85C Model Setup 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : -9.211
+TNS   : -217.529
+
+Type  : Slow 1200mV 85C Model Setup 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : -2.725
+TNS   : -91.094
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -0.894
+TNS   : -1.639
+
+Type  : Slow 1200mV 85C Model Setup 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : -0.748
+TNS   : -1.112
+
+Type  : Slow 1200mV 85C Model Setup 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : -0.346
+TNS   : -0.548
+
+Type  : Slow 1200mV 85C Model Setup 'IR0|u0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 13.117
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DE2_115_Synthesizer:DEAUDIO|demo_sound2:dd2|step[0]'
+Slack : -1.273
+TNS   : -2.130
+
+Type  : Slow 1200mV 85C Model Hold 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : -0.564
+TNS   : -0.728
+
+Type  : Slow 1200mV 85C Model Hold 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : 0.239
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'IR0|u0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : 0.549
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : -11.777
+TNS   : -184.742
+
+Type  : Slow 1200mV 85C Model Recovery 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : -5.236
+TNS   : -67.966
+
+Type  : Slow 1200mV 85C Model Recovery 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : -1.457
+TNS   : -32.561
+
+Type  : Slow 1200mV 85C Model Recovery 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : -0.298
+TNS   : -2.879
+
+Type  : Slow 1200mV 85C Model Recovery 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : -0.052
+TNS   : -0.208
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : 17.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : 0.383
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : 1.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : 2.884
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : 3.713
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|demo_sound2:dd2|step[0]'
+Slack : -2.758
+TNS   : -201.400
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : -2.693
+TNS   : -80.476
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : -1.285
+TNS   : -47.545
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : -1.285
+TNS   : -41.120
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'IR0|u0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.706
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.755
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'TD_CLK27'
+Slack : 18.413
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : 27.470
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : -12.707
+TNS   : -231.734
+
+Type  : Slow 1200mV 0C Model Setup 'DE2_115_Synthesizer:DEAUDIO|demo_sound2:dd2|step[0]'
+Slack : -9.095
+TNS   : -68.050
+
+Type  : Slow 1200mV 0C Model Setup 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : -8.279
+TNS   : -195.366
+
+Type  : Slow 1200mV 0C Model Setup 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : -2.416
+TNS   : -79.767
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -0.789
+TNS   : -1.442
+
+Type  : Slow 1200mV 0C Model Setup 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : -0.558
+TNS   : -0.765
+
+Type  : Slow 1200mV 0C Model Setup 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : -0.210
+TNS   : -0.294
+
+Type  : Slow 1200mV 0C Model Setup 'IR0|u0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 13.690
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DE2_115_Synthesizer:DEAUDIO|demo_sound2:dd2|step[0]'
+Slack : -1.223
+TNS   : -1.645
+
+Type  : Slow 1200mV 0C Model Hold 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : -0.638
+TNS   : -0.911
+
+Type  : Slow 1200mV 0C Model Hold 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : 0.229
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'IR0|u0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : 0.515
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : -10.686
+TNS   : -167.736
+
+Type  : Slow 1200mV 0C Model Recovery 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : -4.631
+TNS   : -59.924
+
+Type  : Slow 1200mV 0C Model Recovery 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : -1.182
+TNS   : -25.227
+
+Type  : Slow 1200mV 0C Model Recovery 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : -0.141
+TNS   : -0.839
+
+Type  : Slow 1200mV 0C Model Recovery 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : -0.054
+TNS   : -0.216
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : 17.602
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : 0.316
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : 0.363
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : 0.451
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : 1.280
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : 2.714
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : 3.272
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : -2.649
+TNS   : -79.728
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|demo_sound2:dd2|step[0]'
+Slack : -2.461
+TNS   : -178.478
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : -1.285
+TNS   : -47.545
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : -1.285
+TNS   : -41.120
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'IR0|u0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.708
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.776
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'TD_CLK27'
+Slack : 18.423
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : 27.460
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : -6.499
+TNS   : -110.295
+
+Type  : Fast 1200mV 0C Model Setup 'DE2_115_Synthesizer:DEAUDIO|demo_sound2:dd2|step[0]'
+Slack : -4.468
+TNS   : -32.846
+
+Type  : Fast 1200mV 0C Model Setup 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : -4.288
+TNS   : -91.236
+
+Type  : Fast 1200mV 0C Model Setup 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : -0.830
+TNS   : -22.867
+
+Type  : Fast 1200mV 0C Model Setup 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : -0.468
+TNS   : -0.753
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.274
+TNS   : -0.451
+
+Type  : Fast 1200mV 0C Model Setup 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : 0.330
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'IR0|u0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 16.440
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DE2_115_Synthesizer:DEAUDIO|demo_sound2:dd2|step[0]'
+Slack : -0.698
+TNS   : -1.155
+
+Type  : Fast 1200mV 0C Model Hold 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : -0.273
+TNS   : -0.357
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.079
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : 0.081
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'IR0|u0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : 0.222
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : -5.345
+TNS   : -83.576
+
+Type  : Fast 1200mV 0C Model Recovery 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : -2.845
+TNS   : -37.307
+
+Type  : Fast 1200mV 0C Model Recovery 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : -0.358
+TNS   : -5.297
+
+Type  : Fast 1200mV 0C Model Recovery 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : 0.250
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : 0.310
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : 18.585
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : 0.254
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : 0.667
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : 1.437
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : 1.939
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|demo_sound2:dd2|step[0]'
+Slack : -1.122
+TNS   : -62.811
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mI2C_CTRL_CLK'
+Slack : -1.000
+TNS   : -44.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|VGA_CLKo[18]'
+Slack : -1.000
+TNS   : -37.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|LRCK_1X'
+Slack : -1.000
+TNS   : -32.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DE2_115_Synthesizer:DEAUDIO|adio_codec:ad1|oAUD_BCK'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.436
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'IR0|u0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.780
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'TD_CLK27'
+Slack : 18.094
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DEAUDIO|u1|altpll_component|pll|clk[1]'
+Slack : 27.552
+TNS   : 0.000
+
+------------------------------------------------------------

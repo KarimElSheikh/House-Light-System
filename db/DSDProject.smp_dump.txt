@@ -1,0 +1,18 @@
+
+State Machine - |DSDProject|DE2_115_IR:IR0|IR_RECEIVE:u1|state
+Name state.IDLE state.DATAREAD state.GUIDANCE 
+state.IDLE 0 0 0 
+state.GUIDANCE 1 0 1 
+state.DATAREAD 1 1 0 
+
+State Machine - |DSDProject|kb1:KB|state
+Name state.ready state.idle state.receive 
+state.idle 0 0 0 
+state.receive 0 1 1 
+state.ready 1 1 0 
+
+State Machine - |DSDProject|DE2_115_Synthesizer:DEAUDIO|I2C_AV_Config:u7|mSetup_ST
+Name mSetup_ST.0000 mSetup_ST.0010 mSetup_ST.0001 
+mSetup_ST.0000 0 0 0 
+mSetup_ST.0001 1 0 1 
+mSetup_ST.0010 1 1 0 

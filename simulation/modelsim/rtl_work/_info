@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\14.0\DSDProject\simulation\modelsim
+vDSDProject
+!i10b 1
+!s100 3hcWTZ0JBDkZ:<m[@TK`a2
+I?Fz0@k5E3mgTdg=H50OGP1
+VNP0`NeGWN:eeljFDB6bom1
+Z1 dC:\altera\14.0\DSDProject\simulation\modelsim
+w1418173495
+8C:/altera/14.0/DSDProject/DSDProject.v
+FC:/altera/14.0/DSDProject/DSDProject.v
+L0 1
+Z2 OV;L;10.1e;51
+r1
+!s85 0
+31
+!s108 1418173536.522000
+!s107 C:/altera/14.0/DSDProject/DSDProject.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/14.0/DSDProject|C:/altera/14.0/DSDProject/DSDProject.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/altera/14.0/DSDProject -O0
+n@d@s@d@project
+vseven_segment_decoder
+Z5 IifU;3_eY?AW4DlC<SnZ0M2
+Z6 V0Kza=K^S1H4z4^ee@9he83
+R1
+Z7 w1418172745
+Z8 8C:/altera/14.0/DSDProject/seven_segment_decoder.v
+Z9 FC:/altera/14.0/DSDProject/seven_segment_decoder.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+Z10 !s100 k91DaJgMd]=IOWRdQ[zH91
+!s85 0
+Z11 !s108 1418173535.756000
+Z12 !s107 C:/altera/14.0/DSDProject/seven_segment_decoder.v|
+Z13 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/14.0/DSDProject|C:/altera/14.0/DSDProject/seven_segment_decoder.v|
+!s101 -O0
+R4

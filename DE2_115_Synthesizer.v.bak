@@ -1,0 +1,85 @@
+module DE2_115_Synthesizer(
+input CLOCK_50,
+input AUD_ADCDAT,
+inout AUD_ADCLRCK,
+inout AUD_BCLK,
+output AUD_DACDAT,
+inout AUD_DACLRCK,
+output AUD_XCK,
+input inIR);
+
+reg key;
+
+always @ (inIR)
+	if (inIR == 32'hA55AFF00) key = 1;
+	else key = 0;
+
+assign AUD_ADCLRCK = AUD_DACLRCK;
+assign AUD_XCK = AUD_CTRL_CLK;
+
+// DEMO SOUND //
+
+// DEMO Sound (CH1) //
+
+
+
+demo_sound1 dd1(
+.clock ( demo_clock ),
+.key_code( demo_code1 ),
+.k_tr ( key )
+);
+
+wire [15:0] sound1;
+wire [15:0] sound2;
+wire [15:0] sound3;
+wire [15:0] sound4;
+wire sound_off1;
+wire sound_off2;
+wire sound_off3;
+wire sound_off4;
+
+wire [7:0]sound_code1 = demo_code1;
+
+wire [7:0]sound_code2 = 8'hf0;
+
+wire [7:0]sound_code3 = 8'hf0;
+
+wire [7:0]sound_code4 = 8'hf0;
+
+// 2CH Audio Sound output -- Audio Generater //
+
+adio_codec ad1 (
+
+// AUDIO CODEC //
+
+.oAUD_BCK ( AUD_BCLK ),
+.oAUD_DATA ( AUD_DACDAT ),
+.oAUD_LRCK ( AUD_DACLRCK ),
+.iCLK_18_4 ( AUD_CTRL_CLK ),
+
+// KEY //
+
+.iRST_N ( key ),
+.iSrc_Select( 2'b00 ),
+
+// Sound Control //
+
+.key1_on ( sound_off1 ),//CH1 ON / OFF
+.key2_on ( sound_off2 ),//CH2 ON / OFF
+.key3_on ( 1'b0 ), // OFF
+.key4_on ( 1'b0 ), // OFF
+.sound1 ( sound1 ), // CH1 Freq
+.sound2 ( sound2 ), // CH2 Freq
+.sound3 ( sound3 ), // OFF,CH3 Freq
+.sound4 ( sound4 ), // OFF,CH4 Freq
+.instru ( 1'b0 ) // Instruction Select
+);
+
+DeBUG_TEST u6 (
+.iCLK(CLOCK2_50),
+.iRST_N(key),
+.isound_off1(sound_off1),
+.isound_off2(sound_off2)
+);
+
+endmodule
